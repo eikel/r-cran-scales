@@ -1,0 +1,14 @@
+Source: r-cran-scales
+Section: gnu-r
+Priority: optional
+Maintainer: Benjamin Eikel <debian@eikel.org>
+Build-Depends: debhelper (>= 8.0.0), cdbs, r-base-dev (>= 2.10.0), r-cran-rcolorbrewer, r-cran-stringr, r-cran-dichromat, r-cran-munsell, r-cran-plyr, r-cran-labeling
+Standards-Version: 3.9.2
+Homepage: http://cran.r-project.org/web/packages/scales/index.html
+
+Package: r-cran-scales
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${R:Depends}, r-cran-rcolorbrewer, r-cran-stringr, r-cran-dichromat, r-cran-munsell, r-cran-plyr, r-cran-labeling
+Description: Scale functions for graphics
+ Scales map data to aesthetics, and provide methods for automatically
+ determining breaks and labels for axes and legends.
